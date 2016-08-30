@@ -1,6 +1,8 @@
 # Graff-Pink
 Custom CMS for a multi purpose theme
 
+[logo]: https://github.com/Salim-K/Graff-Pink/blob/master/graff_pink_cms/images/graf-pink.png "screenshot"
+
 ## Setup 
 1. create new database by the name 'cms_system'
 2. import database .sql file from graff_pink_cms/DB/ folder
