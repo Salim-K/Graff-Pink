@@ -1,6 +1,8 @@
 # Graff-Pink
 Custom CMS for a multi purpose theme
 
+![alt text][logo]
+
 [logo]: https://github.com/Salim-K/Graff-Pink/blob/master/graff_pink_cms/images/graf-pink.png "screenshot"
 
 ## Setup 
