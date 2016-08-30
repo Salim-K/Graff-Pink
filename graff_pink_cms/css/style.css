@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);         	/* This is font logo */ 
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);		 		/* This is font Nav-BAr */
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);         		/* This is font heading slid */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);					/* This is font pargraph slid */
+
+/* Start global */
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none; 
+    
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+	clear: both;
+}
+/* End global */
+
+
+
+/******************** Start Header ****************/
+
+.header{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 0;
+/*	background: rgba(255,255,255,0.5);*/
+}
+.navbar-default {
+    background-color: rgba(255,255,255,0.9);
+	border: none;
+	padding-bottom: 15px;
+}
+.scroll-header{
+	transition: all 2s ease;
+	background: rgba(230, 230, 230,0.9);
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-header h2{
+	 margin: 20px 10px 0 70px;
+	font-family: 'Great Vibes', cursive;
+	color: #000;
+}
+.navbar-header h2 a{
+	font-size: 40px;
+} 
+.navbar-header > h2 > a > span:nth-child(1){
+    color: #000;
+}
+.navbar-header > h2 > a > span:nth-child(2){
+    color: #b73958;
+}
+.button-login{
+	float: right;
+    background: #de6d6e;
+    padding: 5px 17px;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin: 29px 30px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+	outline: 0;
+	transition: all .5s ease;
+}
+.button-login:hover{
+	background: #d9595a ;
+	text-decoration: none;
+	color:#fff;
+}
+.navbar-nav {
+	float: right;
+    margin: 22px 90px 0;
+}
+.navbar-nav li a{
+	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	color: #828080;
+	transition: all 0.5s ease;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #b73958;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #b73958;
+	background: transparent;
+	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+}
+/******************** End Header ****************/
+
+
+
+
+/******************** Start Parallax ****************/
+.Parallax{
+	width: 100%;
+}
+.change-img-slider1{
+	background: url(../img/parallax.jpg) center no-repeat ;
+	background-size: cover;
+}
+
+.carousel-indicators li{
+	border-radius: 0;
+}
+.carousel-caption{
+	position: absolute;
+	bottom: 165px;
+}
+.carousel-caption h2{
+	text-align: center;
+	color: #fff;
+	font-size: 66px;
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.carousel-caption p{
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+/******************** End Parallax ****************/
+
+
+
+
+/******************** Start intro ****************/
+.intro{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-bottom: 30px;
+}
+.head-intro{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+.head-intro h2{
+	padding-top: 60px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.head-intro p{
+	color: #636363;
+	padding-bottom: 50px;
+}
+.circle1, .circle2, .circle3, .circle4{
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+.circle1{
+	background: #4eb9f4;
+}
+.circle2{
+	background: #6fc125;
+}
+.circle3{
+	background: #ff5649;
+}
+.circle4{
+	background: #e48f23;
+}
+.icon{
+	margin-top: 50px;
+	margin: a;
+}
+.icon img{
+	width: 70px;
+	height: 65px;
+	text-align: center;
+}
+.icon h5{
+	color: #fff;
+	padding-top: 10px;
+	text-align: center
+}
+.layer-two{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.2);
+	overflow: hidden;
+	opacity: 0;
+	transition: all .5s  ease;
+}
+.layer-two:hover{
+	opacity: 1;
+}
+.layer-two p{
+	width: 80%;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 43px;
+	margin-left: 18px;
+	line-height: 18px;
+	text-align: center;
+	transition: all .5s  ease;
+	cursor: pointer;
+}
+/******************** End intro ****************/
+
+
+
+/******************** Start Content ****************/
+.content{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-top: 3px solid #e9e9e9;
+	padding-top: 50px;
+}
+.left-margin{
+	margin-left: 75px;
+}
+.image-content{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.image-content img{
+/*	width: 99%;*/
+	opacity: 1;
+	transition: all .5s ease;
+}
+.image-content img:hover{
+	opacity: .5;
+}
+.content-words h3{
+	color: #404040;
+	margin-top: 10px;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.content-words p{
+	width: 99%;
+	color: #8b8b8b;
+	line-height: 22px;
+	padding-bottom: 30px;
+}
+/******************** End Content ****************/
+
+
+/******************** Start Footer ****************/
+
+
+.footer{
+    width:100%;
+    height:auto;
+	padding-bottom: 30px;
+    background-color:#262727;
+}
+
+.footer .links {
+    width:100%;
+	margin-left: -22px;
+}
+.links h3{
+    color:#a1a0a0;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.links ul {
+    list-style: none;
+    float:left;
+	margin-left: -38px;
+	margin-top: 15px;
+}
+.links ul li a {
+    color:#8b8b8b;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color:#FFF
+}
+.footer .social {
+    width:100%;
+	margin-top: 80px;
+	text-align: center;
+}
+.social ul {
+	width: 100%;
+    list-style: none;
+	float: left;
+	margin-bottom: 10px;
+}
+.social ul li {
+	float: left;
+    width: 50px;
+	height: 50px;
+	background-color:#8b8b8b;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+.social ul li:hover{
+	background-color:#d9d9d9;
+	color: #f2f2f2;
+}
+.social ul li a{
+    line-height: 50px;
+	font-size: 18px;
+	color: #262727;
+}
+.footer p{
+    color:#8b8b8b;
+    font-size: 12px;
+	text-align: center;
+}
+
+
+/******************** End Footer ****************/
+
+
+
+
